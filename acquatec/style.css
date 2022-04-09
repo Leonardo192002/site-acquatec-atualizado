@@ -1,0 +1,157 @@
+.header {
+  background-color: #000407;
+  color: #32B9CD;
+  border-bottom: 3px solid;
+}
+body {
+  margin: 0;
+ padding: 0;
+ font-family: 'Exo 2', sans-serif;
+}
+
+.container {
+  width: 90%;
+  margin: 0% auto;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.navbar {
+ display: flex;
+ list-style: none;
+ width: 400px;
+ justify-content: space-between; 
+ align-items: center;
+}
+
+.agora {
+  font-weight: bold;
+}
+
+
+.navbar a {
+  text-decoration: none ;
+  color: #E3B062;
+}
+.banner {
+  background-image: url('imgs/bg-jelly-fish-para_outras_pags.png');
+  background-size: cover;
+}
+
+.banner .container {
+  height: 550px;
+  display:flex ;
+  color: white;
+  align-items: center;
+}
+
+.banner .container.Cadastro{
+  justify-content: center;
+}
+
+.banner p {
+  font-size: 36px;
+  width: 250px;
+  margin-left: 20%;
+}
+
+.imgs{
+  display: flex;
+  align-items: center;
+  background-color: white;
+  justify-content: space-around;
+  width: 98vw;
+  height: 50vh;
+  cursor: pointer;
+}
+
+.missao-visao-valores{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  width: 25%;
+  height: 10%;
+  align-items: center;
+}
+
+.missao-visao-valores h2{
+  margin-bottom: 3%;
+  color: #E6005A;
+  font-size: 30px;
+}
+
+
+.missao-visao-valores img{
+  width: 100px;
+}
+
+.missao-visao-valores p{
+  width: 100%;
+  font-size: 15px;
+}
+
+.footer {
+ background-color: #32B9CD;
+ color: white;
+}
+
+.footer .container {
+ display: flex;
+ height: 150px;
+ align-items: center;
+ justify-content: center;
+}
+
+.card{
+  background-color: #E5E5E5;
+  color: #E6005A;
+  width: 400px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 2px;
+  justify-content: center;
+
+}
+
+.card h2 {
+  margin: 0;
+}
+
+ form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 24px;
+  width: 250px;
+}
+
+form label {
+  margin-top: 8px;
+}
+
+form input {
+  margin-top: 8px;
+ outline: 5px  solid #32B9CD;
+ border: 0;
+ padding: 8px;
+ border-radius: 10px;
+}
+
+form  button {
+  margin-top: 16px;
+  background-color: #E6005A;
+  color: white;
+  padding: 10px 15px;
+  width: 120px;
+  align-self: center;
+  font-size: 18px;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer ;
+}
